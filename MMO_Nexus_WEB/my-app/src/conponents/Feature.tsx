@@ -38,8 +38,7 @@ const FeatureSection = () => {
     <div className="bg-gradient-to-b from-purple-100 to-blue-100 text-center py-20 px-44">
       <h2 className="text-3xl font-bold text-gray-900">The Power Of Combination</h2>
       <p className="mt-2 text-gray-600">MMOLogin Nexus là ngôi nhà chung của những dự án tiềm năng, cùng nhau tạo nên một hệ sinh thái vững mạnh.</p>
-
-      <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
+      <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 py-20 px-44">
         {features.map((feature, index) => (
           <div key={index} className="flex items-start space-x-4">
             <div className="text-left">
