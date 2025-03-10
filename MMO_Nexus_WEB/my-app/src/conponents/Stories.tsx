@@ -3,7 +3,6 @@ import React from 'react'
 const Stories = () => {
     return (
         <div className="flex flex-col md:flex-row items-center justify-between py-20 px-44 bg-gradient-to-r from-purple-100 to-blue-100">
-          {/* Left Content */}
           <div className="md:w-1/2 text-center md:text-left">
             <h2 className="text-4xl font-bold text-gray-900">
               See Our Success <br /> Stories
@@ -15,9 +14,7 @@ const Stories = () => {
             <p className="mt-2 font-bold text-gray-800">TrangKhan102</p>
           </div>
     
-          {/* Right Content */}
           <div className="relative w-[300px] h-[300px] flex justify-center items-center">
-            {/* Central Avatar */}
             <div className="w-48 h-48 rounded-full border-2 border-white shadow-lg flex justify-center items-center bg-white">
               <img
                 src="/main-avatar.png"
@@ -26,7 +23,6 @@ const Stories = () => {
               />
             </div>
     
-            {/* Small Avatars */}
             <img
               src="/user1.png"
               alt="User 1"

@@ -3,7 +3,6 @@ import React from "react";
 const HeroSection = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between md:px-16 lg:px-24 py-12 bg-white min-h-screen max-w-6xl mx-auto px-6">
-      {/* Left Side - Text Content */}
       <div className="md:w-1/2 text-center md:text-left">
         <h1 className="text-3xl md:text-5xl font-bold text-black">
           MMLogin-Authenticator
@@ -31,9 +30,7 @@ const HeroSection = () => {
         </div>
       </div>
 
-      {/* Right Side - Phone Mockup */}
       <div className="md:w-1/2 flex justify-center relative mt-12 md:mt-0">
-        {/* Hình điện thoại */}
         <img
           src="/phone.png"
           alt="Authenticator App"

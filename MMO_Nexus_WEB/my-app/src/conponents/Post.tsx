@@ -28,7 +28,6 @@ const blogPosts = [
 const Post = () => {
   return (
     <div className="py-16 px-4 bg-gradient-to-r from-blue-100 to-purple-200">
-      {/* Tiêu đề Blog */}
       <div className="flex flex-col items-center">
         <h1 className="text-4xl font-bold text-gray-800">Read Our Blog</h1>
         <p className="text-sm text-gray-500 mt-2">

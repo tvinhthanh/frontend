@@ -53,10 +53,8 @@ const Hero = () => {
         </button>
       </div>
 
-      {/* Right Content (3) */}
       <div className="w-1/2 flex justify-center">
         <div className="relative w-[350px] h-[300px] flex justify-center items-center">
-          {/* Followers Stats */}
           <div className="absolute top-44 left-8 bg-white rounded-lg shadow-lg p-4 w-40">
           <h4 className="text-sm font-semibold text-gray-800">Followers Stats</h4>
           <div 
@@ -69,7 +67,6 @@ const Hero = () => {
           >
           </div>
         </div>
-          {/* Likes */}
           <div className="absolute top-0 right-50 bg-white rounded-lg shadow-lg p-4 w-32">
             <h4 className="text-xs font-semibold text-gray-600"><FaHeart/>Likes</h4>
             <p className="text-lg font-bold text-gray-800">             
@@ -79,7 +76,6 @@ const Hero = () => {
             <p className="text-xs text-green-500">⬆ 2.1% vs last 7 days</p>
           </div>
 
-          {/* Reach */}
           <div className="absolute bottom-4 right-0 bg-white rounded-lg shadow-lg p-4 w-32">
             <h4 className="text-xs font-semibold text-gray-600">Reach</h4>
             <p className="text-lg font-bold text-gray-800">        
@@ -88,7 +84,6 @@ const Hero = () => {
             <p className="text-xs text-green-500">⬆ 2.1% vs last 7 days</p>
           </div>
 
-          {/* Followers Gained */}
           <div className="absolute top-20 left-64 bg-white border border-green-400 rounded-lg shadow-md p-4 w-40">
             <p className="text-xs text-gray-600"><Counter value={2938} /></p>
             <p className="text-xs text-green-500">Followers gained after this post</p>
@@ -96,7 +91,6 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Bottom Stats (2) */}
       <div className="w-full flex justify-center mt-10 ">
         <div className="bg-white p-6 rounded-lg shadow-lg flex flex-wrap justify-around w-full md:w-3/4 z-10">
         <div className="flex gap-x-4">
