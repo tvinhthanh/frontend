@@ -5,9 +5,7 @@ const FunctionSection = () => {
     <section className="py-16 bg-pink-50">
     <div className="bg-pink-50 min-h-screen py-16 max-w-6xl mx-auto px-6">
       <div className="max-w-6xl mx-auto px-4">
-        {/* Tiêu đề + Quản lý tài khoản tập trung */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
-          {/* Cột trái */}
           <div>
             <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900 text-left leading-tight">
               Nâng cao bảo mật cho tài khoản mmologin với <br /> Xác thực Đa yếu tố
@@ -45,7 +43,6 @@ const FunctionSection = () => {
           </div>
 
           <div>
-            {/* Xác thực đa yếu tố */}
             <div className="bg-white p-6 rounded-2xl shadow-lg">
             <img src="/MFA.png" alt="Xác thực đa yếu tố" className="w-2/3 mx-auto mb-4" />
             <h2 className="text-2xl font-extrabold text-gray-900 text-center">Xác thực đa yếu tố (MFA)</h2>
@@ -70,7 +67,6 @@ const FunctionSection = () => {
             </div>
 
             
-            {/* Giao diện thân thiện */}
             <div className="bg-white p-6 rounded-2xl shadow-lg mt-6">
             <img src="/security.png" alt="Bảo mật tối đa" className="w-2/3 mx-auto mb-4" />
 
