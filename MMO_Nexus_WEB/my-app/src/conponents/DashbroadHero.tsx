@@ -3,7 +3,6 @@ import React from "react";
 const DashboardHero = () => {
   return (
     <div className="flex flex-col md:flex-row items-center justify-between bg-gradient-to-r from-purple-100 to-blue-100 py-20 px-44 md:px-20 relative">
-      {/* Left Content */}
       <div className="md:w-1/2 w-full text-center md:text-left py-20 px-44">
         <h2 className="text-4xl font-bold text-gray-900 leading-tight">
           One Identity, <br /> Connecting All Experiences

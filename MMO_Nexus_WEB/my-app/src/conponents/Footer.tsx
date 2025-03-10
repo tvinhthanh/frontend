@@ -5,7 +5,6 @@ const Footer = () => {
   return (
     <footer className="bg-purple-100 py-10 px-6 md:px-12 lg:px-24 text-gray-800 text-sm">
       <div className="container grid grid-cols-1 md:grid-cols-4 gap-8 text-left max-w-6xl mx-auto px-6">
-        {/* Company Info */}
         <div className="space-y-4">
           <img src="/logo2.png" alt="MMOLogin Logo" className="w-40" />
           <p className="text-gray-700">MMOLogin Solutions Company Limited</p>
@@ -13,7 +12,6 @@ const Footer = () => {
             <FaHome/> SAV5, 28 Mai Chí Thọ, P. An Phú, TP. Thủ Đức, Hồ Chí Minh, Việt Nam 700000.
           </p>
           <p className="text-gray-600">MST: 0317710018</p>
-          {/* Social Icons */}
           <div className="flex space-x-3">
             <a href="#" className="text-gray-600 hover:text-gray-900">
               <FaFacebook/>
@@ -28,7 +26,6 @@ const Footer = () => {
           <p className="text-gray-600"> English</p>
         </div>
 
-        {/* Ecosystem */}
         <div className="text-left">
           <h3 className="font-semibold text-gray-900">Ecosystem</h3>
           <ul className="mt-4 space-y-2 text-gray-700">
@@ -40,7 +37,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Company */}
         <div className="text-left">
           <h3 className="font-semibold text-gray-900">Company</h3>
           <ul className="mt-4 space-y-2 text-gray-700">
@@ -52,7 +48,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Newsletter */}
         <div className="text-left">
           <h3 className="font-semibold text-gray-900">SUBSCRIBE OUR NEWSLETTER</h3>
           <div className="mt-4 flex items-center border-b border-gray-400">

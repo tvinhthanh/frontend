@@ -4,7 +4,6 @@ const Header = () => {
   return (
     <header className="bg-white shadow-md py-4  max-w-6xl mx-auto px-6">
       <div className="container mx-auto flex justify-between items-center px-6 max-w-6xl">
-        {/* Logo */}
         <div className="flex items-center space-x-2">
           <img src="/logo.png" alt="Logo" className="h-10 w-auto" />
           <span className="text-2xl font-bold text-[#8976FD]"></span>

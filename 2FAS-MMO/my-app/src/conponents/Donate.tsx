@@ -5,7 +5,6 @@ const Donate = () => {
     <div className="w-full bg-gradient-to-r from-white to-purple-100">
     <section className="flex flex-col md:flex-row items-center justify-between md:px-16 lg:px-24  max-w-6xl mx-auto px-6 py-20 text-center rounded-xl">
 
-      {/* Left Content */}
       <div className="md:w-1/2 text-left  max-w-6xl mx-auto px-6">
         <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
           MMOLogin Authentic <br />
@@ -22,7 +21,6 @@ const Donate = () => {
         </button>
       </div>
 
-      {/* Right Image */}
       <div className="md:w-1/2 flex justify-center mt-12 md:mt-0">
         <img src="/donate.png" alt="Donate Illustration" className="w-full max-w-md" />
       </div>

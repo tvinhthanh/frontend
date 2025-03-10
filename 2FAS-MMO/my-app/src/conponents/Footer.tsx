@@ -42,7 +42,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Company */}
         <div className="text-left">
           <h3 className="font-semibold text-gray-900">Company</h3>
           <ul className="mt-4 space-y-2 text-gray-700">
@@ -54,7 +53,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Newsletter */}
         <div className="text-left">
           <h3 className="font-semibold text-gray-900">SUBSCRIBE OUR NEWSLETTER</h3>
           <div className="mt-4 flex items-center border-b border-gray-400">
